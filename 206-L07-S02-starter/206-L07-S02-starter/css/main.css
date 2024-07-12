@@ -2,6 +2,7 @@ body {
   text-align: center;
   background: #261e6d;
   font-family: 'Mooli', sans-serif;
+  display: flex;
 }
 
 h1 {
@@ -27,6 +28,9 @@ ul {
 header,
 main,
 footer {
+  display: flex;
+  justify-content: center;
+
   /* Add a Flexbox property to make the content-wrapper a flex parent container. */
 
   /* Add a Flexbox property to center the contents of each section. */
@@ -47,7 +51,9 @@ footer {
 
 main .content-wrapper {
   /* Add the gap property with a value of 20px to create space between the rows and columns. */
-
+ display: flex;
+ align-content: center;
+ flex-wrap: wrap;
 }
 
 .affirmation-block {
