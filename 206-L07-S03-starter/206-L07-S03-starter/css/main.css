@@ -165,7 +165,7 @@ display: flex;
   /* Add a Flexbox property to center the icons in their parent container. */
 justify-content: center;
   /* Add gap: 20px; to create space between the icons. */
-  
+  gap: 20px;
 }
 
 .contact-wrapper i {
@@ -181,14 +181,14 @@ justify-content: center;
   .services-description {
     width: 100%;
     /* Add flex-direction: row; so that the services cards layout changes to a row orientation. */
-
+    flex-direction: row;
     /* Add a justify-content property and value so that any extra space if the parent container is between the child flex items.  */
-
+    justify-content: space-between;
   }
 
   .wrap-reverse {
     /* Add flex-direction: row-reverse; to change the direction of the second service */
-
+    flex-direction: row-reverse;
   }
 
   .services-image {
@@ -219,7 +219,7 @@ justify-content: center;
 @media (min-width: 1200px) {
   .header-content-wrapper {
     /* Add a justify-content property and value so that any extra space if the parent container is between the h1 and "Book a Consultation link.  */
-
+    justify-content:space-between;
   }
 
   h1 {
@@ -234,9 +234,9 @@ justify-content: center;
   .services-description {
     width: 25%;
     /* Add flex-direction: column; so that the services card's child flex items are laid out in a column again. */
-
+    flex-direction: column;
     /* Add justify-content: flex-start; so the text is aligned at the top. */
-
+    justify-content: flex-start;
     margin-bottom: 0;
   }
 
